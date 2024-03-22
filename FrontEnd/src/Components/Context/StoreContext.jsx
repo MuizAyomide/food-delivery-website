@@ -4,15 +4,13 @@ import { food_list } from "../../assets/assets";
 export const StoreContext = createContext(null);
 
 const StoreCongtextProvider = (props) => {
-
-    
   const contextValue = {
-    food_list
-  }
+    food_list,
+  };
   return (
-    <StoreCongtext.Provider value={contextValue}>
+    <StoreContext.Provider value={contextValue}>
       {props.children}
-    </StoreCongtext.Provider>
+    </StoreContext.Provider>
   );
 };
 
