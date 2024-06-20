@@ -17,6 +17,7 @@ const LoginPopup = ({ setShowLogin }) => {
           />
         </div>
         <div className="login-popup-input">
+          
           {currState === "Login" ? (
             <></>
           ) : (
