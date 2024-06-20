@@ -17,6 +17,7 @@ const Header = () => {
           <button>View Menu</button>
         </a>
       </div>
+      
     </div>
   );
 };
