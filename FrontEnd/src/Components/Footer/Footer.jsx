@@ -13,6 +13,7 @@ const Footer = () => {
             praesentium cumque minima, soluta voluptate quos. dolor sit amet
             consectetur, adipisicing elit. Quisquam praesentium cumque minima,
             soluta voluptate quos.
+            
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
