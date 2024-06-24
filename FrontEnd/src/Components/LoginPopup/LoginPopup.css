@@ -11,6 +11,7 @@
     place-self: center;
     width: max(23vw, 330px);
     color: #808080;
+    
     background: #fff;
     display: flex;
     flex-direction: column;
